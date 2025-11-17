@@ -5,6 +5,7 @@ Each lab demonstrates practical implementation of machine learning or AI-related
 The work emphasizes clear methodology, reproducibility, and correctness.
 
 Lab 1: CIFAR-10 Neural Network Classification
+
 File: Lab1.ipynb
 1. Objective
 The purpose of this lab was to design and implement a simple feed-forward neural network for image classification using the CIFAR-10 dataset.
@@ -56,9 +57,7 @@ This lab emphasizes building a simple GUI, handling image rendering, and automat
 3. System Design
 The tool is developed using Tkinter, Python’s standard GUI library.
 It programmatically loads image files from a designated directory, displays them to the user, and collects label information through interface components.
-
 The GUI contains: A dynamically updated image display panel.
-
 Two sets of radio-button controls:
 Character identification (Homer, Marge, Bart, Lisa, Maggie, Abe)
 Environment type (indoor or outdoor)
@@ -97,6 +96,4 @@ Extract Lab2_images.zip into a folder named images.
 Ensure Lab2_labeler.py and Lab2_labels.csv are in the same directory.
 Run the program using: python Lab2_labeler.py
 Label the images using the graphical interface.
-CSV for structured data output
-
-OS library for file iteration
+The output CSV file will update automatically.
