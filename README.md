@@ -19,7 +19,6 @@ Labels are flattened to remove unnecessary dimensions and enable compatibility w
 This step ensures numerical stability during training and allows the model to converge more effectively.
 
 5. Model Architecture
-
 The model is implemented using Keras Sequential API. The structure contains:
 A Flatten layer to convert the 32×32×3 tensor into a one-dimensional vector.
 A fully connected (Dense) hidden layer with 128 units and ReLU activation.
